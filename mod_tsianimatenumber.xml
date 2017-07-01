@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1" client="site" method="upgrade">
+    <name>TSI Animated Numbers</name>
+    <author>Design Studio WWW</author>
+	<copyright>Copyright (C) 2011-2016 Design Studio WWW All rights reserved.</copyright>
+    <version>1.0.0</version>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <description>Awesome module for display animated numbers</description>
+	<languages>
+		<language tag="en-GB">en-GB.mod_tsianimatenumber.ini</language>
+		<language tag="en-GB">en-GB.mod_tsianimatenumber.sys.ini</language>
+		<language tag="pl-PL">pl-PL.mod_tsianimatenumber.ini</language>
+		<language tag="pl-PL">pl-PL.mod_tsianimatenumber.sys.ini</language>
+	</languages>
+    <files>
+        <filename>mod_tsianimatenumber.xml</filename>
+        <filename module="mod_tsianimatenumber">mod_tsianimatenumber.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+		<filename>assest/css/mod_tsianimatenumber.css</filename>
+		<filename>assest/js/jquery.counterup.min.js</filename>
+		<filename>assest/js/mod_tsianimatenumber.js</filename>
+		<filename>assest/img/panel.png</filename>
+    </files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" label="">
+				<field type="spacer" name="spacer0" label="ANIMATED_NUMBER_VALUE_TITLE" />	
+				<field name="NumberValue" type="number" default="10" label="ANIMATED_NUMBER_VALUE" description="" min="0" step="1" />
+				<field name="NumberColor" type="color" default="#000000" label="ANIMATED_NUMBER_COLOR" description="" />
+				<field name="NumberSize" type="number" default="22" label="ANIMATED_NUMBER_FONTSIZE" description="50" min="0" step="1" />
+				<field name="Width" type="number" default="150" label="ANIMATED_NUMBER_MAXWIDTH" description="50" min="0" step="1" />
+				<field name="Border" type="radio" class="btn-group btn-group-yesno" default="0" label="ANIMATED_NUMBER_BORDER" description="">
+					<option value="1">ANIMATED_NUMBER_YES</option>
+					<option value="0">ANIMATED_NUMBER_NO</option>
+				</field>
+				<field name="BorderWeight" type="number" default="3" label="ANIMATED_NUMBER_BORDERWEIGHT" description="" min="0" step="1" />
+				<field name="BorderColor" type="color" default="#000000" label="ANIMATED_NUMBER_BORDERCOLOR" description="" />
+				<field name="Delay" type="number" default="100" label="ANIMATED_NUMBER_DELAY" description="" min="0" step="1" />
+				<field name="Time" type="number" default="2000" label="ANIMATED_NUMBER_TIME" description="" min="0" step="1" />
+				
+				
+				<field type="spacer" name="spacer3" label="ANIMATED_NUMBER_LABELSET" />	
+				<field name="NumberLabel" type="text" default="" label="ANIMATED_NUMBER_LABEL" description=""  />
+				<field name="LabelColor" type="color" default="#888888" label="ANIMATED_NUMBER_LABELCOLOR" description="" />
+				<field name="LabelSize" type="number" default="14" label="ANIMATED_NUMBER_LABELFONTSIZE" description="" min="0" step="1" />
+				
+				
+				<field type="spacer" name="spacer1" label="ANIMATED_NUMBER_PREFIXTITLE" />	
+				<field name="Prefix" type="radio" class="btn-group btn-group-yesno" default="0" label="ANIMATED_NUMBER_PREFIX" description="">
+					<option value="1">ANIMATED_NUMBER_YES</option>
+					<option value="0">ANIMATED_NUMBER_NO</option>
+				</field>
+				<field name="PrefixValue" type="text" default="" label="ANIMATED_NUMBER_PREFIXVALUE" description="" />
+				<field name="PrefixColor" type="color" default="#444444" label="ANIMATED_NUMBER_PREFIXCOLOR" description="" />
+				<field name="PrefixSize" type="number" default="24" label="ANIMATED_NUMBER_PREFIXFONTSIZE" description="50" min="0" step="1" />
+				<field name="PrefixStrong" type="radio" class="btn-group btn-group-yesno" default="0" label="ANIMATED_NUMBER_PREFIXBOLD" description="">
+					<option value="1">ANIMATED_NUMBER_YES</option>
+					<option value="0">ANIMATED_NUMBER_NO</option>
+				</field>
+				
+				
+				<field type="spacer" name="spacer2" label="ANIMATED_NUMBER_SUFIXTITLE" />	
+				<field name="Sufix" type="radio" class="btn-group btn-group-yesno" default="0" label="ANIMATED_NUMBER_SUFIX" description="">
+					<option value="1">ANIMATED_NUMBER_YES</option>
+					<option value="0">ANIMATED_NUMBER_NO</option>
+				</field>
+				<field name="SufixValue" type="text" default="" label="ANIMATED_NUMBER_SUFIXVALUE" description=""  />
+				<field name="SufixColor" type="color" default="#444444" label="ANIMATED_NUMBER_SUFIXCOLOR" description="" />
+				<field name="SufixSize" type="number" default="24" label="ANIMATED_NUMBER_SUFIXFONTSIZE" description="50" min="0" step="1" />
+				<field name="SufixStrong" type="radio" class="btn-group btn-group-yesno" default="0" label="ANIMATED_NUMBER_SUFIXBOLD" description="">
+					<option value="1">ANIMATED_NUMBER_YES</option>
+					<option value="0">ANIMATED_NUMBER_NO</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+    
+</extension>
+
+

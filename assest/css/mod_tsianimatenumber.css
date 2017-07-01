@@ -1,0 +1,20 @@
+﻿.AnimatedNumber{
+	margin:0 auto 0 auto;
+	position:relative;	
+	-webkit-border-radius: 50%;
+	border-radius: 50%;			
+}
+.AnimatedNumber img.AnimatedNumber_panel{
+	min-width:100%;
+	width:100%;
+	height:auto;				
+}
+.AnimatedNumber_Container{
+	margin: auto;
+    position: absolute;
+    left: 50%;
+  	top: 50%;
+  	transform: translate(-50%,-50%);
+  	width:100%;
+  	text-align:center;			
+}
