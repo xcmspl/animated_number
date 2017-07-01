@@ -6,7 +6,7 @@
 
 <p>Istnieją także szerokie możliwości formatowania wyglądu modułu. Cztery kluczowe parametry modułu (wartość, prefiks, sufiks, etykieta), mogą posiadać własne kolory czcionek oraz indywidualną jej wielkość. Dla całości możesz również zastosować obramowanie (po okręgu).</p>
 
-Demo: <a href="https://www.designcart.pl/sklep-internetowy.html">https://www.designcart.pl/sklep-internetowy.html</a>
+Demo: <a href="https://www.designcart.pl/sklep-internetowy.html">https://www.designcart.pl/sklep-internetowy.html</a><br/>
 Demo: <a href="http://www.tsi.info.pl/tsi-animated-number.html">http://www.tsi.info.pl/tsi-animated-number.html</a>
 <p></p>
 <p></p>
